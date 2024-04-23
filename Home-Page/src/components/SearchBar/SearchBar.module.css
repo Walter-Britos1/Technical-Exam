@@ -1,0 +1,27 @@
+.containerSearchBar {
+    width: 906px;
+    height: 38px; 
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.searchBox {
+    width: 515px;
+    height: 40px; 
+    position: relative;
+    margin-top: 60px;
+}
+
+.inputSearch {
+    width: 515px;
+    height: 40px;
+    border-radius: 48px;
+    border: 1px #BABABA solid;
+    color: #FFF;
+    padding-right: 40px; 
+    background-image: url('../../assets/img/search.png'); 
+    background-repeat: no-repeat;
+    background-position: right 15px center; 
+    background-size: 16px 16px;
+}
