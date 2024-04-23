@@ -1,0 +1,14 @@
+.container {
+    width: 165px;
+    height: 38px;
+}
+
+.paragraph {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-style: italic;
+    font-size: 32px;
+    line-height: 37.5px;
+    letter-spacing: 10%;
+    color: #0F1E7B;
+}
