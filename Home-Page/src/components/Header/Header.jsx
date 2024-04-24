@@ -1,13 +1,33 @@
-import Logo from '../Logo/Logo';
-import SearchBar from '../SearchBar/SearchBar';
-import styles from './Header.module.css'
+import iconProfile from "../../assets/img/profile.svg";
+import iconTrolley from "../../assets/img/trolley.svg";
+import iconSearch from "../../assets/img/search.svg";
+import styles from "./Header.module.css";
 
-export default function Header() {
+function Header() {
   return (
-    <div className={styles.container}>
-      <Logo />
-      <SearchBar />
-    </div>
-  )
+    <header className={styles.header}>
+      <div className={styles.logo}>Mi Tienda</div>
+      <div className={styles.searchAndIcons}>
+        <div className={styles.searchbox}>
+          <div className={styles.inputAndIcon}>
+            <input type="text" className={styles.searchInput} />
+            <img src={iconSearch} alt="search" className={styles.searchIcon} />
+          </div>
+        </div>
+        <div className={styles.icons}>
+          <div className={styles.profile}>
+            <img
+              src={iconProfile}
+              alt="profile"
+              className={styles.profileIcon}
+            />
+            <p className={styles.account}>Mi cuenta</p>
+          </div>
+          <img src={iconTrolley} alt="trolley" className={styles.trolleyIcon} />
+        </div>
+      </div>
+    </header>
+  );
 }
 
+export default Header;

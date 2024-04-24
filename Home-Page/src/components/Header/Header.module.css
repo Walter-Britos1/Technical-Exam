@@ -1,8 +1,90 @@
-.container {
+.header {
     display: flex;
-    width: 1440px;
-    height: 40px;
-    padding: 0px 70px 0px 70px;
+    padding: 0px 70px;
+    justify-content: center;
+    align-items: flex-start;
     gap: 229px;
+    align-self: stretch;
+    margin-top: 14px;
+}
+
+.logo {
+    margin-top: 32px;
+    color: #0F1E7B;
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+.searchAndIcons {
+    display: flex;
     align-items: center;
+    gap: 240px;
+}
+
+.searchbox {
+    width: 515px;
+    height: 40px;
+    position: relative;
+}
+
+.inputAndIcon {
+    display: inline-flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.searchInput {
+    width: 515px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 48px;
+    border: 1px solid #BABABA;
+    background: #FFF;
+    padding-right: 30px;
+}
+
+.searchIcon {
+    display: inline-flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 12px;
+    margin-left: -60px;
+}
+
+.icons {
+    display: flex;
+    gap: 32px;
+}
+
+.profile {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profileIcon {
+    width: 22px;
+    height: 22px;
+}
+
+.account {
+    color: #5E5E5E;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.trolleyIcon {
+    margin-top: 42px;
+    width: 22px;
+    height: 22px;
 }
