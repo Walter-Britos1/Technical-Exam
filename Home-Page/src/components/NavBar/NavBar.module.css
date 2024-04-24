@@ -19,7 +19,9 @@
     font-weight: 500;
     line-height: normal;
     text-decoration: none;
+    transition: color 300ms ease-in-out;
 }
+
 
 .specialOffer {
     display: flex;
