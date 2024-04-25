@@ -5,6 +5,7 @@ import Trends from "./components/Trends/Trends"
 import Popular from "./components/Popular/Popular"
 import MostSold from "./components/MostSold/MostSold"
 import InfoSection from "./components/InfoSection/InfoSection"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Popular />
       <MostSold />
       <InfoSection />
+      <Footer />
     </>
   )
 }
