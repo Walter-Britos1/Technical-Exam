@@ -1,0 +1,46 @@
+.nav {
+    display: flex;
+    height: 19px;
+    padding-right: 70px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    margin-top: 34px;
+    margin-bottom: 14px;
+}
+
+.navLink {
+    color: #5E5E5E;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    transition: color 300ms ease-in-out;
+}
+
+
+.specialOffer {
+    display: flex;
+    align-items: center;
+}
+
+.fireIcon {
+    width: 17.921px;
+    height: 18.821px;
+    margin-left: 8px;
+}
+
+.offerLink {
+    color: #DC1E0F;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}

@@ -1,0 +1,21 @@
+.containerMostSold {
+    margin-top: 68px;
+    margin-left: -14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 70px;
+    background: #FFF;
+}
+
+.titleMostSold {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: 70px;
+    margin-bottom: -160px;
+}
