@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar/NavBar"
 import ImgMain from "./components/ImgMain/ImgMain"
 import Trends from "./components/Trends/Trends"
 import Popular from "./components/Popular/Popular"
+import MostSold from "./components/MostSold/MostSold"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ImgMain />
       <Trends />
       <Popular />
+      <MostSold />
     </>
   )
 }
