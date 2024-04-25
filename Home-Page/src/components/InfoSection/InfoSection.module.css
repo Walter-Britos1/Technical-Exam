@@ -1,0 +1,142 @@
+.infoContainer {
+    display: flex;
+    width: 1049px;
+    padding: 40px 150px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #ECECEC;
+}
+
+.bagContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.bagIcon {
+    width: 43.063px;
+    height: 57.083px;
+}
+
+.detailBagContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+}
+
+.detailBag {
+    width: 261px;
+    color: #000;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 122.222% */
+    text-transform: uppercase;
+}
+
+.moreDetailBag {
+    width: 263px;
+    color: #3C3C3B;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: -10px;
+}
+
+.walletContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.walletIcon {
+    width: 58.135px;
+    height: 54px;
+}
+
+.detailWalletContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.detailWallet {
+    width: 261.606px;
+    height: 50px;
+    color: #000;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.moreDetailWallet {
+    width: 263px;
+    align-self: stretch;
+    color: #3C3C3B;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: -10px;
+}
+
+.transportContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.transportIcon {
+    width: 71.053px;
+    height: 45px;
+}
+
+.detailTransportContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.detailTransport {
+    width: 242.227px;
+    color: #000;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.moreDetailTransport {
+    width: 261px;
+    height: 62px;
+    color: #3C3C3B;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: -10px;
+}
