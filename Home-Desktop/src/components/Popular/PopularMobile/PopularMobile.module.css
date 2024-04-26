@@ -1,0 +1,62 @@
+.popularMobilecontainer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.titleContainer {
+    display: flex;
+    margin-top: 30px;
+    padding: 0px 16px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.popularTitle {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 28px; /* 116.667% */
+    text-transform: uppercase;
+}
+
+.sneakersMobile {
+    width: 100%;
+    height: 215px;
+    background-image: url("../../../assets/img/zapaMobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.zapatillasMobile {
+    width: 246.493px;
+    position: absolute;
+    right: 49.253px;
+    top: auto;
+    margin-top: 90px;
+    left: 120px;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.circlesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; 
+    position: absolute;
+    width: 100%;
+}
+
+.circlesContainer img {
+    width: 7.16px;
+    height: 7px;
+}
