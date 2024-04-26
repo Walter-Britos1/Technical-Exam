@@ -10,6 +10,7 @@ import HeaderMobile from "./components/Header/HeaderMobile/HeaderMobile";
 import ImgMainMobile from "./components/ImgMain/ImgMainMobile/ImgMainMobile";
 import TrendsMobile from "./components/Trends/TrendsMobile/TrendsMobile";
 import PopularMobile from "./components/Popular/PopularMobile/PopularMobile";
+import MostSoldMobile from "./components/MostSold/MostSoldMobile/MostSoldMobile";
 
 import './App.css'
 
@@ -31,6 +32,7 @@ function App() {
         <ImgMainMobile />
         <TrendsMobile />
         <PopularMobile />
+        <MostSoldMobile />
       </div>
     </>
   );
