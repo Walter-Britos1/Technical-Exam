@@ -19,3 +19,13 @@
     margin-top: -63px;
     box-sizing: border-box;
 }
+
+.circlesOrange {
+    position: absolute;
+    margin-top: 384px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 109px;
+    height: 10px;
+    flex-shrink: 0;
+}
