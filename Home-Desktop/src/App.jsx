@@ -8,6 +8,7 @@ import InfoSection from "./components/InfoSection/InfoSection";
 import Footer from "./components/Footer/Footer";
 import HeaderMobile from "./components/Header/HeaderMobile/HeaderMobile";
 import ImgMainMobile from "./components/ImgMain/ImgMainMobile/ImgMainMobile";
+import TrendsMobile from "./components/Trends/TrendsMobile/TrendsMobile";
 
 import './App.css'
 
@@ -27,6 +28,7 @@ function App() {
       <div className="mobileOnly">
         <HeaderMobile />
         <ImgMainMobile />
+        <TrendsMobile />
       </div>
     </>
   );
