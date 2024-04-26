@@ -12,7 +12,7 @@ import TrendsMobile from "./components/Trends/TrendsMobile/TrendsMobile";
 import PopularMobile from "./components/Popular/PopularMobile/PopularMobile";
 import MostSoldMobile from "./components/MostSold/MostSoldMobile/MostSoldMobile";
 import InfoSectionMobile from "./components/InfoSection/InfoSectionMobile/InfoSectionMobile";
-import FooterMobile from "./components/Footer/FooterMobile/FooterMobile";
+import FoterMobile from "./components/Footer/FooterMobile/FooterMobile";
 
 import './App.css'
 
@@ -36,7 +36,7 @@ function App() {
         <PopularMobile />
         <MostSoldMobile />
         <InfoSectionMobile />
-        <FooterMobile />
+        <FoterMobile />
       </div>
     </>
   );

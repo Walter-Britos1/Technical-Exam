@@ -1,0 +1,70 @@
+.menuContainer {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    z-index: 1000; 
+    overflow: hidden; 
+}
+
+.menu {
+    width: 360px;
+    height: 81px;
+    flex-shrink: 0;
+    border-bottom: 1px solid #000;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.menuLogo {
+    color: #0F1E7B;
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+.closeMenu {
+    border: none;
+    background: #FFF;
+}
+
+.optionMenu {
+    color: #5E5E5E;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    padding-left: 20px; 
+}
+
+.offertsContainer {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.offerts {
+    color: #DC1E0F;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    padding-left: 20px; 
+}
+
+.line {
+    width: 340px;
+    height: 0.65px;
+    background: #000;
+}
