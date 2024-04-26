@@ -53,7 +53,8 @@
     padding: 12px;
     align-items: flex-start;
     gap: 12px;
-    margin-left: -60px;
+    margin-left: -50px;
+    margin-bottom: -15px;
 }
 
 .icons {
@@ -88,3 +89,4 @@
     width: 22px;
     height: 22px;
 }
+

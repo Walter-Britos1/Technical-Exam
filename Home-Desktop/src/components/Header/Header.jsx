@@ -10,8 +10,14 @@ function Header() {
       <div className={styles.searchAndIcons}>
         <div className={styles.searchbox}>
           <div className={styles.inputAndIcon}>
-            <input type="text" className={styles.searchInput} />
-            <img src={iconSearch} alt="search" className={styles.searchIcon} />
+            <div className={styles.containerMobile}>
+              <input type="text" className={styles.searchInput} />
+              <img
+                src={iconSearch}
+                alt="search"
+                className={styles.searchIcon}
+              />
+            </div>
           </div>
         </div>
         <div className={styles.icons}>
