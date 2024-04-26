@@ -7,6 +7,7 @@ import MostSold from "./components/MostSold/MostSold";
 import InfoSection from "./components/InfoSection/InfoSection";
 import Footer from "./components/Footer/Footer";
 import HeaderMobile from "./components/Header/HeaderMobile/HeaderMobile";
+import ImgMainMobile from "./components/ImgMain/ImgMainMobile/ImgMainMobile";
 
 import './App.css'
 
@@ -25,6 +26,7 @@ function App() {
       </div>
       <div className="mobileOnly">
         <HeaderMobile />
+        <ImgMainMobile />
       </div>
     </>
   );
